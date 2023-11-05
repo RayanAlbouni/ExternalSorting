@@ -17,11 +17,11 @@ jobs:
         dotnet-version: 6.x
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore --
 
     - name: Build
-      run: dotnet build --configuration Release
+      run: dotnet build -- --configuration Release
 
     - name: Test
-      run: dotnet test --configuration Release --no-restore
+      run: dotnet test -- --configuration Release --no-restore
 
