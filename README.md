@@ -1,3 +1,5 @@
+![example workflow](https://github.com/RayanAlbouni/ExternalSorting/actions/workflows/tests.yml/badge.svg)
+
 # ExternalSorting
 
 ## Sorting Project
